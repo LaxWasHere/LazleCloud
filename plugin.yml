@@ -1,15 +1,15 @@
 name: LazleCloud
 main: net.lazlecraft.lazlecloud.lazlecloud
-version: 1.2
+version: 1.2.2
 author: LaxWasHere
 website: www.LazleCraft.com
 commands:
     debug:
-        description: test server
+        description: TP Test server
     lazlecloud:
         description: tell website
     lazlegames: 
-        description: TP hungergames
+        description: TP LazleGames
     survival:
         description: TP survival
     pvp:
@@ -20,3 +20,7 @@ commands:
         description: TP skyblock
     freebuild:
         description: TP Freebuild
+    buildserver:
+        description: TP Build
+    events:
+        description: TP events

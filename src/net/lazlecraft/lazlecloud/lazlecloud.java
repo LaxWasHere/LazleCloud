@@ -18,11 +18,6 @@ public class lazlecloud extends JavaPlugin {
         System.out.println(plugin.getName() + " version " + plugin.getVersion() + " by LaxWasHere enabled.");
     }
         
-    @Override
-    public void onDisable() {
-        PluginDescriptionFile plugin = getDescription();
-        System.out.println(plugin.getName() + " version " + plugin.getVersion() + " by LaxWasHere disabled.");
-    }
 
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
         if (!(sender instanceof Player)) {
@@ -50,6 +45,13 @@ public class lazlecloud extends JavaPlugin {
         }
         else if (commandLabel.equalsIgnoreCase("freebuild")){
        	 p.sendPluginMessage(this, "RubberBand", ("freebuild").getBytes());
+        }
+        else if (commandLabel.equalsIgnoreCase("events")){
+        	p.sendPluginMessage(this, "RubberBand", ("event").getBytes());
+        }
+        else if (commandLabel.equalsIgnoreCase("buildserver")){
+        	p.sendPluginMessage(this, "RubberBand", ("build").getBytes());
+        	
        }
         else if (commandLabel.equalsIgnoreCase("lazlecloud")){
         	p.sendMessage(ChatColor.ITALIC + "--------LazleCraft Website--------");
