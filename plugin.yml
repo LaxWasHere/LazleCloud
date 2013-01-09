@@ -1,6 +1,6 @@
 name: LazleCloud
 main: net.lazlecraft.lazlecloud.lazlecloud
-version: 1.2.2
+version: 1.2.6
 author: LaxWasHere
 website: www.LazleCraft.com
 commands:
@@ -22,5 +22,13 @@ commands:
         description: TP Freebuild
     buildserver:
         description: TP Build
-    events:
+    event:
+        description: TP events
+    walls1:
+        description: TP skyblock
+    walls2:
+        description: TP Freebuild
+    walls3:
+        description: TP Build
+    walls4:
         description: TP events

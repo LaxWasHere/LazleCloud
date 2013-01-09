@@ -46,11 +46,23 @@ public class lazlecloud extends JavaPlugin {
         else if (commandLabel.equalsIgnoreCase("freebuild")){
        	 p.sendPluginMessage(this, "RubberBand", ("freebuild").getBytes());
         }
-        else if (commandLabel.equalsIgnoreCase("events")){
+        else if (commandLabel.equalsIgnoreCase("event")){
         	p.sendPluginMessage(this, "RubberBand", ("event").getBytes());
         }
         else if (commandLabel.equalsIgnoreCase("buildserver")){
         	p.sendPluginMessage(this, "RubberBand", ("build").getBytes());
+        }
+        else if (commandLabel.equalsIgnoreCase("walls1")){
+        	 p.sendPluginMessage(this, "RubberBand", ("walls1").getBytes());
+        }
+        else if (commandLabel.equalsIgnoreCase("walls2")){
+       	 p.sendPluginMessage(this, "RubberBand", ("walls2").getBytes());
+        }
+        else if (commandLabel.equalsIgnoreCase("walls3")){
+        	p.sendPluginMessage(this, "RubberBand", ("walls3").getBytes());
+        }
+        else if (commandLabel.equalsIgnoreCase("walls4")){
+        	p.sendPluginMessage(this, "RubberBand", ("walls4").getBytes());
         	
        }
         else if (commandLabel.equalsIgnoreCase("lazlecloud")){
